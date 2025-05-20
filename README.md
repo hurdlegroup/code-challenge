@@ -31,13 +31,14 @@ Create a simple training session management feature. The goal is to demonstrate 
 
 ### 3. TypeScript Utility
 - The function `getTotalDuration()` in `resources/ts/utils/session.ts` calculates the total duration of a session array
-- Add/edit the provided test in `session.test.ts` if needed
+- Add/edit the provided test in `training-session.test.ts` if needed
 
 ---
 
 ## 🌟 Bonus (Optional)
 
 You may complete any of the following at your discretion, but may help us get a better idea of your technical understanding:
+
 - ✅ Add form validation and error handling
 - ✅ Sort sessions by date or filter future sessions
 - ✅ Add pagination or UI enhancements
@@ -81,7 +82,7 @@ Once running, you can access the app at:
 http://localhost
 ```
 
-You may need to update `APP_URL` and DB credentials in .env if using a different port or database configuration.
+You may need to update `APP_URL` and DB credentials in `.env` if using a different port or database configuration.
 
 You can login with email `test@example.com` and password `password`.
 
@@ -98,7 +99,7 @@ You can login with email `test@example.com` and password `password`.
 # or
 ./vendor/bin/sail npx vitest run
 ```
-
+| You can safely ignore the `AxiosError: Network Error` during the test 
 ---
 
 ## 📦 Submission
@@ -107,6 +108,7 @@ You can login with email `test@example.com` and password `password`.
 2. Push your changes to a private GitHub repository
 3. Include this `README.md` with any additional notes
 4. Share access with us at `developer@hurdle.live`
+5. Drop us an email with your name and repository URL at `developer@hurdle.live`
 
 ---
 

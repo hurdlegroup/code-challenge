@@ -19,6 +19,7 @@ export default defineConfig({
     ],
     test: {
         globals: true,
+        setupFiles: ['./resources/js/bootstrap-test.js'],
         environment: 'jsdom',
     },
 });
